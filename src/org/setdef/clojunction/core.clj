@@ -4,8 +4,6 @@
     [org.httpkit.client :as http]))
 
 
-(defrecord ConfluenceHost [^String host ^String context ^Boolean secure ^Boolean verify-cert])
-
 (def ^:const suffix "rpc/json-rpc/confluenceservice-v2")
 
 
